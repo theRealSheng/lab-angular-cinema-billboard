@@ -1,0 +1,15 @@
+
+img {
+  width: 200px;
+  height: 300px;
+}
+
+ul{
+  list-style: none;
+}
+
+.movies-wrapper ul {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

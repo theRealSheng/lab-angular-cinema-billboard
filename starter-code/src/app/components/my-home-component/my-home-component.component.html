@@ -1,3 +1,15 @@
 <p>
   my-home-component works!
 </p>
+
+<div class="movies-wrapper">
+  <ul>
+    <li *ngFor='let movie of movies'>
+      <div class="movie-container">
+      <h2> Room # {{ movie.room }} </h2>
+      <img src="{{ movie.poster }}">
+      <p> {{ movie.title }}</p>
+      </div>
+    </li>
+  </ul>
+</div>
